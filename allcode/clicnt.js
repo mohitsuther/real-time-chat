@@ -15,8 +15,9 @@ do{
 
 let username = document.getElementById("user_name");
 let username2 = document.querySelector(".messag");
+let mm = document.querySelector(".mm");
 username.innerHTML = "Hi "+ " " + name;
-username2.innerHTML = "Wellcome"+ " " + name;
+mm.innerHTML = "Wellcome" + name;
 
 
 button.addEventListener('click',()=>{
