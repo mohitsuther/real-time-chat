@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const http = require('http').createServer(app);
 
-const PORT = process.env.PORT || 5000 ;
+const PORT = process.env.PORT  ;
 
 http.listen(PORT,()=>{
     console.log(`istening on port ${PORT}`);
