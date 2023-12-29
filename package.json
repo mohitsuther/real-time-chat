@@ -3,7 +3,7 @@
   "name": "live-chat-app",
   "version": "1.0.0",
   "description": "",
-  "main": "serverjs",
+  "main": "index.js",
   "scripts": {
     "test": "nodemon server"
   },
